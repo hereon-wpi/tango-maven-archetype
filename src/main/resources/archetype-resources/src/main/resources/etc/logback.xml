@@ -8,7 +8,7 @@
         </discriminator>
         <sift>
             <appender name="FILE-${deviceName}" class="ch.qos.logback.core.rolling.RollingFileAppender">
-                <file>${XENV_ROOT}/var/log/${NAME}/${deviceName}.log</file>
+                <file>${deviceName}.log</file>
                 <Append>true</Append>
                 <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
                     <fileNamePattern>${deviceName}%i.log</fileNamePattern>
