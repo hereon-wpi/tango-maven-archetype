@@ -1,0 +1,10 @@
+Package: [[name]]
+Version: [[version]]
+Section: misc
+Priority: optional
+Architecture: all
+Depends: jdk (>= 1.8)
+Maintainer: ${author-name} <${author-email}>
+Description: [[name]] Java Tango server
+Distribution: experimental
+Depends: default-jre | java8-runtime

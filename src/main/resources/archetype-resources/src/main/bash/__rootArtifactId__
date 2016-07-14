@@ -1,0 +1,14 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+#!/bin/bash
+
+echo TANGO_HOST=${symbol_dollar}TANGO_HOST
+echo INSTANCE=${symbol_dollar}1
+echo VERSION=${project.version}
+echo Using Java:
+echo `java -version`
+
+JAVA_OPTS="-server"
+
+java ${symbol_dollar}JAVA_OPTS -DTANGO_HOST=${symbol_dollar}TANGO_HOST -jar /usr/share/lib/${artifactId}-${symbol_dollar}VERSION.jar ${symbol_dollar}INSTANCE ${artifactId} ${symbol_dollar}INSTANCE
