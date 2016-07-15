@@ -6,6 +6,7 @@ This README would normally document whatever steps are necessary to get your app
 #!bash
 
 $>  mvn archetype:generate                                                \
+      -DarchetypeGroupId=de.hzg.wpi.tango                                 \
       -DarchetypeArtifactId=tango-maven-archetype                         \
       -DarchetypeVersion=1.2                                              \
       -DarchetypeRepository=http://dl.bintray.com/hzgde/hzg-wpn-projects  \
