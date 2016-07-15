@@ -26,13 +26,13 @@ public class ${rootArtifactId} {
     @Init
     @StateMachine(endState = DeviceState.ON)
     public void init() throws Exception {
-
+        logger.trace("init");
     }
 
     @Delete
     @StateMachine(endState = DeviceState.OFF)
     public void delete() throws Exception {
-
+        logger.trace("delete");
     }
 
     public static void main(String[] args) {
