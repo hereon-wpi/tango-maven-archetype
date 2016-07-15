@@ -4,7 +4,7 @@
 
     <groupId>hzg.wpn.tango</groupId>
     <artifactId>tango-maven-archetype</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
     <packaging>maven-archetype</packaging>
 
     <distributionManagement>

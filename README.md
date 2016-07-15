@@ -7,7 +7,7 @@ This README would normally document whatever steps are necessary to get your app
 
 $>  mvn archetype:generate                                                \
       -DarchetypeArtifactId=tango-maven-archetype                         \
-      -DarchetypeVersion=1.1                                              \
+      -DarchetypeVersion=1.2                                              \
       -DarchetypeRepository=http://dl.bintray.com/hzgde/hzg-wpn-projects  \
       -DartifactId=CamelCaseArtifectId
 ```
