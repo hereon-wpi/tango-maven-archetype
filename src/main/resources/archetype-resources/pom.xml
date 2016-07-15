@@ -37,9 +37,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>hzg.wpn.tango</groupId>
-            <artifactId>server-parent</artifactId>
-            <version>16</version>
+            <groupId>de.hzg.wpi.tango</groupId>
+            <artifactId>tango-server-bom</artifactId>
+            <version>1</version>
             <type>pom</type>
         </dependency>
     </dependencies>
