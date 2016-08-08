@@ -1,0 +1,18 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+[Unit]
+Description=${rootArtifactId} server
+
+[Service]
+Type=forking
+#TODO
+User=khokhria
+#TODO
+Environment=TANGO_HOST=hzgxenvtest:10000
+#TODO install path and instance name
+ExecStart=/usr/lib/tango/server/${rootArtifactId} test
+SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target
