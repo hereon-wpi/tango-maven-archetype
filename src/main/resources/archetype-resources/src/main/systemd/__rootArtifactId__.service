@@ -11,7 +11,7 @@ User=khokhria
 #TODO
 Environment=TANGO_HOST=hzgxenvtest:10000
 #TODO install path and instance name
-ExecStart=/usr/lib/tango/server/${rootArtifactId} test
+ExecStart=/usr/bin/${rootArtifactId} test
 SuccessExitStatus=143
 
 [Install]

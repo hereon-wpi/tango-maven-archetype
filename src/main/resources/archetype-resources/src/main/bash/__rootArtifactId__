@@ -18,4 +18,4 @@ echo JAVA_OPTS=${symbol_dollar}JAVA_OPTS
 JAVA_ARGS="-DTANGO_HOST=${symbol_dollar}TANGO_HOST"
 echo JAVA_ARGS=${symbol_dollar}JAVA_ARGS
 
-java ${symbol_dollar}JAVA_OPTS ${symbol_dollar}JAVA_ARGS -jar /usr/share/lib/${artifactId}-${symbol_dollar}VERSION.jar ${symbol_dollar}INSTANCE ${artifactId} ${symbol_dollar}INSTANCE 1>${artifactId}.out 2&>1
+/usr/bin/java ${symbol_dollar}JAVA_OPTS ${symbol_dollar}JAVA_ARGS -jar /usr/share/lib/${artifactId}-${symbol_dollar}VERSION.jar ${symbol_dollar}INSTANCE ${artifactId} ${symbol_dollar}INSTANCE &
